@@ -1,6 +1,6 @@
-const h1Element = document.getElementById("red");
-const h2Element = document.getElementById("blue");
-const h4Element = document.getElementById("cafe");
+const h1Element = document.getElementById("green");
+const h2Element = document.getElementById("yellow");
+const h4Element = document.getElementById("brown");
 
 
 
@@ -11,7 +11,8 @@ h2Element.style.color = "orange";
 
 
 h4Element.addEventListener("click", (event) => {
-    h1Element.textContent = "Hola, me hicieron click"; 
-    h1Element.style.color = "brown";
+    h4Element.textContent = "Hola, me hicieron click"; 
+    h4Element.style.color = "brown";
+    console.log(event)
 
     })
